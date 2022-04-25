@@ -1,13 +1,22 @@
 import type { NextPage } from 'next'
 import { Header } from '../components/Header'
+import { Banner } from '../components/Banner'
+import { TravelTypes } from '../components/TravelTypes'
+import { Container } from '@chakra-ui/react'
 
-import styles from '../../styles/Global.module.scss'
+
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.home}>
+    <Container
+    position="relative"
+    maxWidth={1440}
+    background='#F5F8FA'
+    >
       <Header />
-    </div>
+      <Banner />
+      <TravelTypes />
+    </Container>
   )
 }
 

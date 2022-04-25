@@ -1,10 +1,14 @@
-import styles from './Header.module.scss'
-import Logo from '../../../Assets/Logo.png'
+import { Box, Image } from '@chakra-ui/react'
 
 export function Header() {
     return (
-        <div className={styles.header}>
-            <img className={styles.logo} src="/Logo.png" alt="Logo" />
-        </div>
+        <Box
+            height={100}
+        >
+            <Image
+            marginLeft={630}
+            paddingTop={30}
+            src="images/Logo.png" alt="Logo" />
+        </Box>
     )
 }
