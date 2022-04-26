@@ -4,14 +4,14 @@ export function TextBanner() {
     return (
         <Box>
             <Container
-            width={839}
             height={101}
-            
+            maxWidth={839}
+            marginBottom={20}
             >
                 <Text
                 fontFamily='poppins'
                 fontSize={36}
-                fontWeight='normal'
+                fontWeight={500}
                 textAlign='center'
                 marginTop={20}
                 >
