@@ -5,37 +5,39 @@ export function CityBadges() {
         <Box
             maxWidth={270}
         >
-            <Container>
+            <Box>
                 <Image
                     marginBottom={5}
                     src="pictures/London.png" alt="London"
                 />
-            </Container>
-            <Container
+            </Box>
+            <Box
                 display="flex"
                 alignItems="center"
                 marginBottom={5}
-                width={270}
+                width={250}
             >
                 <Container>
                     <Text
                         fontSize={16}
                         fontWeight={500}
+                        marginLeft={2.5}
                     >
                         Londres
                     </Text>
                     <Text
                         fontSize={12}
+                        marginLeft={2.5}
                     >
                         Reino Unido
                     </Text>
                 </Container>
-                <Container>
+                <Box>
                     <Image
                         src="pictures/England.png" alt="flag"
                     />
-                </Container>
-            </Container>
+                </Box>
+            </Box>
         </Box>
     )
 }

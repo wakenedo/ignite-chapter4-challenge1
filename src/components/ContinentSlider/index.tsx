@@ -8,11 +8,11 @@ export function ContinentSlider() {
                 margin='auto'
             >
                 <Image
-                    width={1240}
-                    height={450}
-                    marginBottom={20}
+                    width={1440}
+                    height={460}
+                    marginBottom={10}
                     
-                    src="images/Continents.png" alt="Banner"
+                    src="images/Continents.png" alt="ContinentsSwipingBanner"
                 />
             </Container>
         </Box>

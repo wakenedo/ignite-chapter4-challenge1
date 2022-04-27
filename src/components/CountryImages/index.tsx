@@ -16,7 +16,15 @@ export function CountryImages() {
                 >
                     Cidades +100
                 </Text>
-                <Grid>
+                <Grid
+                templateColumns='repeat(4, 1fr)'
+                gap={6}
+                
+                >
+                    <CityBadges/>
+                    <CityBadges/>
+                    <CityBadges/>
+                    <CityBadges/>
                     <CityBadges/>
                 </Grid>
 

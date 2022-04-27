@@ -14,6 +14,7 @@ export function TextBanner() {
                 fontWeight={500}
                 textAlign='center'
                 marginTop={20}
+                color="#47585B"
                 >
                     Vamos nessa?
                     <br/>
