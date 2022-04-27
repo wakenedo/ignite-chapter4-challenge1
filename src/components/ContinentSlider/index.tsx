@@ -11,7 +11,7 @@ const swiper = new Swiper('.swiper', {
     modules: [Navigation, Pagination],
     // Optional parameters
     direction: 'horizontal',
-    loop: true,
+    loop: false,
 
     // If we need pagination
     pagination: {
@@ -30,9 +30,13 @@ export function ContinentSlider() {
     return (
         <>
             <div className="swiper">
-
+                <Box
+                maxWidth={1440}
+                />
                 <div className="swiper-wrapper">
-
+                    <Container 
+                    maxWidth={1440}
+                    />
                     <div className="swiper-slide">
                         <Image
                             width={1440}
@@ -56,7 +60,7 @@ export function ContinentSlider() {
                             width={1440}
                             height={460}
                             marginBottom={10}
-                            src="images/Europe.png" alt="ContinentsSwipingBanner"
+                            src="images/Africa.jpg" alt="ContinentsSwipingBanner"
                         />
                     </div>
 
@@ -65,7 +69,7 @@ export function ContinentSlider() {
                             width={1440}
                             height={460}
                             marginBottom={10}
-                            src="images/Europe.png" alt="ContinentsSwipingBanner"
+                            src="images/America.jpg" alt="ContinentsSwipingBanner"
                         />
                     </div>
 
@@ -74,7 +78,7 @@ export function ContinentSlider() {
                             width={1440}
                             height={460}
                             marginBottom={10}
-                            src="images/Europe.png" alt="ContinentsSwipingBanner"
+                            src="images/AmericaLatina.jpg" alt="ContinentsSwipingBanner"
                         />
                     </div>
 
