@@ -1,4 +1,4 @@
-import { Box, Container, Image } from '@chakra-ui/react'
+import { Box, Container, Image, Stack, Text } from '@chakra-ui/react'
 import Swiper, { Navigation, Pagination } from 'swiper'
 
 import 'swiper/css';
@@ -22,28 +22,56 @@ const swiper = new Swiper('.swiper', {
     // Navigation arrows
     navigation: {
         nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',   
+        prevEl: '.swiper-button-prev',
     },
 });
 
 export function ContinentSlider() {
     return (
-        <>
+        <Box
+            width={1440}
+            margin="auto"
+            alignItems="center"
+
+        >
             <div className="swiper">
-                <Box
-                maxWidth={1440}
-                />
                 <div className="swiper-wrapper">
-                    <Container 
-                    maxWidth={1440}
-                    />
                     <div className="swiper-slide">
-                        <Image
-                            width={1440}
-                            height={460}
-                            marginBottom={10}
-                            src="images/Europe.png" alt="ContinentsSwipingBanner"
-                        />
+                        <Stack
+                            alignItems="center"
+                            
+                        >
+                            <Image
+                                width={1440}
+                                height={460}
+                                marginBottom={10}
+                                src="images/Europe.png" alt="ContinentsSwipingBanner"
+                            />
+                            <Box
+                                position="absolute"
+                                z-Index={5}
+                                
+                                
+                            >
+                                <Text
+                                    textAlign="center"
+                                    fontSize={48}
+                                    fontWeight={700}
+                                    color="#DADADA"
+                                    marginTop={170}    
+                                >
+                                    Europa
+                                </Text>
+                                <Text
+                                    textAlign="center"
+                                    fontSize={32}
+                                    fontWeight={700}
+                                    color="#DADADA"
+                                >
+                                    O continente mais antigo
+                                </Text>
+                            </Box>
+                        </Stack>
                     </div>
 
                     <div className="swiper-slide">
@@ -94,7 +122,7 @@ export function ContinentSlider() {
 
                 <div className="swiper-scrollbar"></div>
             </div>
-        </>
+        </Box>
     )
 }
 
