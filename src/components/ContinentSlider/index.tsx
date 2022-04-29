@@ -1,4 +1,4 @@
-import { Box, Container, Image, Stack, Text } from '@chakra-ui/react'
+import { Box, Image, Stack, Text } from '@chakra-ui/react'
 import Swiper, { Navigation, Pagination } from 'swiper'
 
 import 'swiper/css';
@@ -49,7 +49,7 @@ export function ContinentSlider() {
                             />
                             <Box
                                 position="absolute"
-                                z-Index={5}
+                                
 
 
                             >
@@ -84,7 +84,7 @@ export function ContinentSlider() {
                             />
                             <Box
                                 position="absolute"
-                                z-Index={5}
+                                
 
 
                             >
@@ -125,7 +125,7 @@ export function ContinentSlider() {
                             />
                             <Box
                                 position="absolute"
-                                z-Index={5}
+                                
 
 
                             >
@@ -166,7 +166,7 @@ export function ContinentSlider() {
                             />
                             <Box
                                 position="absolute"
-                                z-Index={5}
+                                
 
 
                             >
@@ -207,7 +207,7 @@ export function ContinentSlider() {
                             />
                             <Box
                                 position="absolute"
-                                z-Index={5}
+                                
 
 
                             >
