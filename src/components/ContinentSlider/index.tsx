@@ -39,7 +39,7 @@ export function ContinentSlider() {
                     <div className="swiper-slide">
                         <Stack
                             alignItems="center"
-                            
+
                         >
                             <Image
                                 width={1440}
@@ -50,15 +50,15 @@ export function ContinentSlider() {
                             <Box
                                 position="absolute"
                                 z-Index={5}
-                                
-                                
+
+
                             >
                                 <Text
                                     textAlign="center"
                                     fontSize={48}
                                     fontWeight={700}
-                                    color="#DADADA"
-                                    marginTop={170}    
+                                    color="#FFBA08"
+                                    marginTop={170}
                                 >
                                     Europa
                                 </Text>
@@ -66,7 +66,7 @@ export function ContinentSlider() {
                                     textAlign="center"
                                     fontSize={32}
                                     fontWeight={700}
-                                    color="#DADADA"
+                                    color="#FFBA08"
                                 >
                                     O continente mais antigo
                                 </Text>
@@ -75,39 +75,167 @@ export function ContinentSlider() {
                     </div>
 
                     <div className="swiper-slide">
-                        <Image
-                            width={1440}
-                            height={460}
-                            marginBottom={10}
-                            src="images/Asia.jpg" alt="ContinentsSwipingBanner"
-                        />
+                        <Stack>
+                            <Image
+                                width={1440}
+                                height={460}
+                                marginBottom={10}
+                                src="images/Asia.jpg" alt="ContinentsSwipingBanner"
+                            />
+                            <Box
+                                position="absolute"
+                                z-Index={5}
+
+
+                            >
+                                <Box
+                                    marginLeft={500}
+                                >
+                                    <Text
+                                        textAlign="center"
+                                        fontSize={48}
+                                        fontWeight={700}
+                                        color="#FFBA08"
+                                        marginTop={170}
+
+                                    >
+                                        Asia
+                                    </Text>
+                                    <Text
+                                        textAlign="center"
+                                        fontSize={32}
+                                        fontWeight={700}
+                                        color="#FFBA08"
+
+                                    >
+                                        O continente mais exótico
+                                    </Text>
+                                </Box>
+                            </Box>
+                        </Stack>
                     </div>
 
                     <div className="swiper-slide">
-                        <Image
-                            width={1440}
-                            height={460}
-                            marginBottom={10}
-                            src="images/Africa.jpg" alt="ContinentsSwipingBanner"
-                        />
+                        <Stack>
+                            <Image
+                                width={1440}
+                                height={460}
+                                marginBottom={10}
+                                src="images/Africa.jpg" alt="ContinentsSwipingBanner"
+                            />
+                            <Box
+                                position="absolute"
+                                z-Index={5}
+
+
+                            >
+                                <Box
+                                    marginLeft={500}
+                                >
+                                    <Text
+                                        textAlign="center"
+                                        fontSize={48}
+                                        fontWeight={700}
+                                        color="#FFBA08"
+                                        marginTop={170}
+
+                                    >
+                                        Africa
+                                    </Text>
+                                    <Text
+                                        textAlign="center"
+                                        fontSize={32}
+                                        fontWeight={700}
+                                        color="#FFBA08"
+
+                                    >
+                                        O continente mais selvagem
+                                    </Text>
+                                </Box>
+                            </Box>
+                        </Stack>
                     </div>
 
                     <div className="swiper-slide">
-                        <Image
-                            width={1440}
-                            height={460}
-                            marginBottom={10}
-                            src="images/America.jpg" alt="ContinentsSwipingBanner"
-                        />
+                        <Stack>
+                            <Image
+                                width={1440}
+                                height={460}
+                                marginBottom={10}
+                                src="images/America.jpg" alt="ContinentsSwipingBanner"
+                            />
+                            <Box
+                                position="absolute"
+                                z-Index={5}
+
+
+                            >
+                                <Box
+                                    marginLeft={500}
+                                >
+                                    <Text
+                                        textAlign="center"
+                                        fontSize={48}
+                                        fontWeight={700}
+                                        color="#FFBA08"
+                                        marginTop={170}
+
+                                    >
+                                        America do Norte
+                                    </Text>
+                                    <Text
+                                        textAlign="center"
+                                        fontSize={32}
+                                        fontWeight={700}
+                                        color="#FFBA08"
+
+                                    >
+                                        O continente mais organizado
+                                    </Text>
+                                </Box>
+                            </Box>
+                        </Stack>
                     </div>
 
                     <div className="swiper-slide">
-                        <Image
-                            width={1440}
-                            height={460}
-                            marginBottom={10}
-                            src="images/AmericaLatina.jpg" alt="ContinentsSwipingBanner"
-                        />
+                        <Stack>
+                            <Image
+                                width={1440}
+                                height={460}
+                                marginBottom={10}
+                                src="images/AmericaLatina.jpg" alt="ContinentsSwipingBanner"
+                            />
+                            <Box
+                                position="absolute"
+                                z-Index={5}
+
+
+                            >
+                                <Box
+                                    marginLeft={500}
+                                >
+                                    <Text
+                                        textAlign="center"
+                                        fontSize={48}
+                                        fontWeight={700}
+                                        color="#FFBA08"
+                                        marginTop={170}
+
+                                    >
+                                        America do Sul
+                                    </Text>
+                                    <Text
+                                        textAlign="center"
+                                        fontSize={32}
+                                        fontWeight={700}
+                                        color="#FFBA08"
+
+                                    >
+                                        O continente mais bonito
+                                    </Text>
+                                </Box>
+                            </Box>
+                        </Stack>
                     </div>
 
 
@@ -125,18 +253,3 @@ export function ContinentSlider() {
         </Box>
     )
 }
-
-{/*<Box >        
-            <Container
-                maxWidth={1440}
-                margin='auto'
-
-            >
-                <Image
-                    width={1440}
-                    height={460}
-                    marginBottom={10}
-                    src="images/Continents.png" alt="ContinentsSwipingBanner"
-                />
-            </Container>
-    </Box>*/}
