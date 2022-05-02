@@ -1,7 +1,7 @@
 import { Box, Container, Image } from '@chakra-ui/react'
 import Link from 'next/link'
 
-export function CountryHeader() {
+export function ContinentHeader() {
     return (
         <Box
             height={100}

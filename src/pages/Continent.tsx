@@ -1,20 +1,20 @@
 import { Box, Container } from '@chakra-ui/react'
 import type { NextPage } from 'next'
-import { CountryBanner } from '../components/ContinentBanner'
+import { ContinentBanner } from '../components/ContinentBanner'
 import { CountryDescription } from '../components/ContinentDescription'
 
-import { CountryHeader } from '../components/ContinentHeader'
+import { ContinentHeader } from '../components/ContinentHeader'
 import { CountryImages } from '../components/CountryImages'
 import { CountryInfo } from '../components/ContinentInfo'
 
 
 
 
-const Country: NextPage = () => {
+const Continent: NextPage = () => {
     return (
         <Box>
-            <CountryHeader />
-            <CountryBanner />
+            <ContinentHeader />
+            <ContinentBanner />
             <Container
                 display="flex"
                 maxWidth={1320}
@@ -30,4 +30,4 @@ const Country: NextPage = () => {
     )
 }
 
-export default Country
+export default Continent

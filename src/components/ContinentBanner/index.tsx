@@ -1,6 +1,8 @@
 import { Box, Container, Image } from '@chakra-ui/react'
 
-export function CountryBanner() {
+
+export function ContinentBanner() {
+    
     return (
         <Box>
             <Container
@@ -10,7 +12,7 @@ export function CountryBanner() {
                 width={1440}
                 height={500}
                 marginBottom={20}
-                src="images/BannerEurope.png" alt="BannerCountry" />
+                src={"images/BannerEurope.png"} alt="BannerCountry" />
             </Container>
         </Box>
     )
