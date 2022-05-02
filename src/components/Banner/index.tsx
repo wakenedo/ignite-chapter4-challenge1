@@ -1,5 +1,6 @@
 import { Box, Container, Image } from '@chakra-ui/react'
 
+
 export function Banner() {
     return (
         <Box>

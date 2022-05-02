@@ -10,7 +10,7 @@ import { CountryInfo } from '../components/ContinentInfo'
 
 
 
-const Europe: NextPage = () => {
+const Country: NextPage = () => {
     return (
         <Box>
             <CountryHeader />
@@ -26,12 +26,8 @@ const Europe: NextPage = () => {
                 <CountryInfo />
             </Container>
             <CountryImages />
-
-
-
-
         </Box>
     )
 }
 
-export default Europe
+export default Country
