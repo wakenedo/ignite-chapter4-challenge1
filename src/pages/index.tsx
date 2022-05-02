@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
 
-import { Header } from '../components/Header'
-import { Banner } from '../components/Banner'
-import { TravelTypes } from '../components/TravelTypes'
-import { DividerHome } from '../components/Divider'
-import { TextBanner } from '../components/TextBanner'
-import { ContinentSlider } from '../components/ContinentSlider'
+import { Header } from '../components/Home/Header'
+import { Banner } from '../components/Home/Banner'
+import { TravelTypes } from '../components/Home/TravelTypes'
+import { DividerHome } from '../components/Home/Divider'
+import { TextBanner } from '../components/Home/TextBanner'
+import { ContinentSlider } from '../components/Home/ContinentSlider'
 
 
 
