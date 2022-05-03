@@ -19,7 +19,7 @@ interface ICallToActionProps {
 export const CallToAction = ({ continents }: ICallToActionProps) => {
   return (
     <ContentContainer flexDir="column">
-      <Box direction="row" w="90px" mt="4rem" mb="2rem">
+      <Box flexDirection="row" w="90px" mt="4rem" mb="2rem">
         <Divider color="blue" size="4rem" borderColor="blue.800" />
       </Box>
 

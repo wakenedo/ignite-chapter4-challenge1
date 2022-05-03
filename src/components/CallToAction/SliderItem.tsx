@@ -28,8 +28,8 @@ export const SliderItem = ({
       <Link href={href} passHref>
         <ChakraLink
           _hover={{ color: "yellow.500" }}
-          justify="center"
-          align="center"
+          justifyContent="center"
+          textAlign="center"
         >
           <Heading fontSize={["xl", "3xl", "5xl"]} fontWeight="bold">
             {title}
