@@ -5,7 +5,7 @@ import Head from "next/head";
 import { continents } from "../utils/continents";
 
 
-import { CallToAction } from "../Components/CallToAction";
+import { CallToAction } from "../components/CallToAction"
 import { Header } from "../components/Home/Header";
 import { Banner } from "../components/Home/Banner";
 import { TravelTypes } from "../components/Home/TravelTypes";
