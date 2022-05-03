@@ -1,11 +1,11 @@
 import { Box, Container } from '@chakra-ui/react'
 import type { NextPage } from 'next'
-import { ContinentBanner } from '../components/Continent/ContinentBanner'
-import { CountryDescription } from '../components/Continent/ContinentDescription'
+import { ContinentBanner } from './src/components/Continent/ContinentBanner'
+import { CountryDescription } from './src/components/Continent/ContinentDescription'
 
 import { ContinentHeader } from '../components/Continent/ContinentHeader'
-import { CountryImages } from '../components/Continent/CountryImages'
-import { CountryInfo } from '../components/Continent/ContinentInfo'
+import { CountryImages } from './src/components/Continent/CountryImages'
+import { CountryInfo } from './src/components/Continent/ContinentInfo'
 
 
 

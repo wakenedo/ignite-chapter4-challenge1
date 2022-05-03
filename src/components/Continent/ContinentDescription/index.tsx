@@ -1,24 +1,65 @@
-import { Box, Container, Text } from '@chakra-ui/react'
+import React from "react";
+import { Flex, Text, Heading, Tooltip } from "@chakra-ui/react";
+import  InfoOutlineIcon  from "@chakra-ui/icon";
 
-export function CountryDescription() {
-    return (
-        <Box>
-            <Container
-            maxWidth={600}
-            height={211}
-            >
-                <Text
-                    fontFamily='poppins'
-                    fontSize={18}
-                    fontWeight={400}
-                    textAlign='justify'
-                    lineHeight={10}
-                >
-                    A Europa é, por convenção, um dos seis continentes do mundo.
-                    Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais,
-                    o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
-                </Text>
-            </Container>
-        </Box>
-    )
+import { ContentContainer } from "../../ContentContainer";
+
+interface IContinentDescriptionProps {
+    about: string;
+    countries: number;
+    languages: number;
+    cities100: number;
 }
+
+export const ContinentDetail = ({
+    about,
+    countries,
+    languages,
+    cities100,
+}: IContinentDescriptionProps) => {
+    return (
+        <ContentContainer
+            justify="space-between"
+            mt="4rem"
+            flexDir={["column", "column", "row"]}
+        >
+            <Text width={["100%", "100%", "40%"]} align="justify">
+                {about}
+            </Text>
+            <Flex
+                width={["100%", "100%", "40%"]}
+                mt={["1rem", "1rem", "0"]}
+                justify="space-around"
+            >
+                <Flex flexDir="column" align="center" justify="center">
+                    <Heading color="yellow.500">{countries}</Heading>
+                    <Text>países</Text>
+                </Flex>
+                <Flex flexDir="column" align="center" justify="center">
+                    <Heading color="yellow.500">{languages}</Heading>
+                    <Text>línguas</Text>
+                </Flex>
+                <Flex flexDir="column" align="center" justify="center">
+                    <Heading color="yellow.500">{cities100}</Heading>
+                    <Text>
+                        cidades +100
+                        <Tooltip
+                            hasArrow
+                            placement="top"
+                            label="Cidades entre as 100 mais visitadas do mundo"
+                            fontSize="md"
+                        >
+                            <InfoOutlineIcon
+                                color="gray:400"
+                                
+                                w="0.5rem"
+                                h="0.5rem"
+                                ml="0.25rem"
+                            />
+                        </Tooltip>
+                    </Text>
+                </Flex>
+            </Flex>
+        </ContentContainer>
+    );
+};

@@ -17,7 +17,7 @@ const swiper = new Swiper('.swiper', {
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
-        bulletActiveClass: '.swiper-pagination-active',
+        
     },
 
     // Navigation arrows
@@ -249,11 +249,11 @@ export function ContinentSlider() {
 
 
                 </div>
-                <div className="swiper-pagination"></div>
 
 
 
                 <div className="swiper-button-prev"></div>
+                <div className="swiper-pagination"></div>
                 <div className="swiper-button-next"></div>
 
 
